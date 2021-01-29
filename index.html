@@ -321,7 +321,7 @@
       
         <p>Welcome to yang’s blog!</p>
 <h2 id="How-are-you"><a href="#How-are-you" class="headerlink" title="How are you"></a>How are you</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">object day_4ExTest &#123;</span><br><span class="line">  def main(args: Array[String]): Unit = &#123;</span><br><span class="line">    val sparkConf = new SparkConf().setMaster(<span class="string">&quot;local&quot;</span>).setAppName(<span class="string">&quot;test&quot;</span>)</span><br><span class="line">    val sc = new SparkContext(sparkConf)</span><br><span class="line"></span><br><span class="line">    val myPhone: RDD[Int] = sc.makeRDD(List(1,7,291,5,103,31))</span><br><span class="line">    println(myPhone.sortBy(num =&gt; num, <span class="literal">true</span>).collect().mkString(<span class="string">&quot;&quot;</span>))</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这是我的电话，记得有事联系我<img src="D:\MyWork\A-Blog\public\img\1611919728691.png" alt="1611919728691"></p>
+<p>这是我的电话，记得有事联系我!–想要我的电话，运行上面的代码就可以知道了  ，嘻嘻嘻</p>
 
       
 
